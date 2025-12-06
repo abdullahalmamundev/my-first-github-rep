@@ -1,0 +1,198 @@
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+/* Nav Styles */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 200px;
+}
+.nav_title{
+    font-weight: 800;
+    font-size: 45px;
+}
+
+/* shared style text  */
+.text_he{
+    color: #FD6E0A;
+}
+
+/* list text & nav>ul>li>a */
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav li a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* color */
+.dark-2{
+    color: #474747;
+}
+/* nav ul */
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+/* all button */
+.btn-all{
+    background-color: #FD6E0A;
+    font-weight: 700;
+    color: white;
+    padding: 18px 35px;
+    border-radius: 5px;
+    font-size: 20px;
+    border: none ;
+}
+/* banner */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+}
+.banner_1{
+    max-width: 580px;
+}
+.banner_title_2{
+    font-size: 45px;
+    font-weight: 600;
+}
+.banner_title{
+    font-weight: bold;
+    font-size: 85px;
+}
+/* banner image */
+.banner_img{
+    width: 580px;
+}
+.banner-dis{
+    font-size: 18px;
+    font-weight: 585;
+    color: #757575;
+}
+/* header = had */
+.had{
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+/* Text style */
+.sec_title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+.sect_dis{
+    font-size: 18px;
+    color: #757575;
+}
+.text{
+    text-align: center;
+}
+/* Background Color */
+.second_bag{
+    background-color: #FFF8F3;
+}
+
+/* about */
+.about_us{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    
+}
+/* main tag */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+/* About us items */
+.items{
+    display: flex;
+    justify-content: space-around;
+}
+.item_dis{
+    font-weight: 600;
+}
+.item_title{
+    color: #757575;
+}
+/* skill section style */
+.skill_contain{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+/* Education & Experience Section */
+.education_Container{
+    display: flex;
+    gap: 24px;
+}
+.head_title{
+    font-size: 35px;
+    font-weight: bold;
+    
+}
+.ex_dis .ex_sub_title{
+    color: #757575;
+}
+.ex_sub_title{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.resume hr{
+    margin: 30px 5px;
+}
+.ex_title{
+    font-size: 25px;
+    font-weight: bold;
+}
+.ed_col_title{
+    font-size: 30px;
+    font-weight: bold;
+}
+.ex_dis{
+    font-size: 16px;
+}
+/* Second button style  */
+.downlod_cv{
+    margin-top: 50px;
+}
+/* Footer Style */
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+.fot_column{
+    width: 50%;
+}
+footer input[type="text"], footer input[type="email"], footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+}
