@@ -203,18 +203,36 @@ footer input[type="text"], footer input[type="email"], footer textarea{
 }
 
 @media screen and (max-width: 576px) {
-    .skill_contain, .education_Container, .second_bag, .items{
+    .skill_contain, .education_Container, 
+    .second_bag, .items, .banner, nav, nav>ul {
         flex-direction: column;
     }
     footer, .about_us{
         padding: 20px;
     }
+    .banner{
+        margin: 20px;
+    }
+    .banner_img{
+        width: 100%;
+    }
     .fot_column{
         width: 100%;
+    }
+    nav>ul{
+        gap: 10px;
     }
     footer input[type="text"], footer input[type="email"], footer textarea{
         width: calc( 100% - 40px );
     }
-   
+    .had{
+        background-image: none;
+    }
+   .btn-all{
+    margin-bottom: 20px;
+   }
+   .sect_dis{
+    padding: auto;
+   }
    
 }
