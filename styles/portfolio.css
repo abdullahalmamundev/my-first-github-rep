@@ -196,3 +196,25 @@ footer input[type="text"], footer input[type="email"], footer textarea{
     margin-bottom: 24px;
     border: none;
 }
+
+/* Responsive Media Quary */
+.hide{
+    display: none;
+}
+
+@media screen and (max-width: 576px) {
+    .skill_contain, .education_Container, .second_bag, .items{
+        flex-direction: column;
+    }
+    footer, .about_us{
+        padding: 20px;
+    }
+    .fot_column{
+        width: 100%;
+    }
+    footer input[type="text"], footer input[type="email"], footer textarea{
+        width: calc( 100% - 40px );
+    }
+   
+   
+}
